@@ -70,3 +70,4 @@ Thick client application penetration testing methodology research.
     Verify the communication by tampering the communication between client and the server (API Tests)
     
     Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
+    
