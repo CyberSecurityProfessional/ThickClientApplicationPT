@@ -82,7 +82,7 @@ Thick client application penetration testing methodology research.
 
 	Analyse the linked registry items and check if:
 
-	* Any Sensitive data is stored in stored in registry
+	* Any Sensitive data is stored in registry
 	* Tampering the registry and perform unintended operations
 
 	Tools: Proc Mon (Process Monitor from Sys Internals suite), regshot, registry editor
@@ -91,7 +91,7 @@ Thick client application penetration testing methodology research.
 
 	Check for sensitive data/Hardcoded credentials using Strings command
 
-	Tools: Strings.exe (from Sys Internals suite)\
+	Tools: Strings.exe (from Sys Internals suite)
 
 * DLL Injection
 
