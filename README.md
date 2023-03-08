@@ -55,21 +55,21 @@ Thick client application penetration testing methodology research.
 
 * Communication Secirity
 
-    Encrypted communication, Vertification of Transport Layer security and cipher suite strength
+	Encrypted communication, Vertification of Transport Layer security and cipher suite strength
     
-    Tools: testssl.sh, sslyze
+	Tools: testssl.sh, sslyze
 
 * Installation Traffic
 
-    Is sensitive information transmitted during installation time
+	Is sensitive information transmitted during installation time
     
-    Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
+	Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
 
 * Run Time Interception and Tampering
 
-    Verify the communication by tampering the communication between client and the server (API Tests)
+	Verify the communication by tampering the communication between client and the server (API Tests)
     
-    Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
+	Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
     
 ### Client Side Attacks
 
@@ -83,9 +83,9 @@ Thick client application penetration testing methodology research.
 
 	Analyse the linked registry items and check if:
 
-    * Any Sensitive data is stored in stored in registry
+	* Any Sensitive data is stored in stored in registry
 
-    * Tampering the registry and perform unintended operations
+	* Tampering the registry and perform unintended operations
 
 	Tools: Proc Mon (Process Monitor from Sys Internals suite), regshot, registry editor
 
@@ -101,9 +101,7 @@ Thick client application penetration testing methodology research.
 
 	1.install atomic-red-team and execute respective test case
 
-	Tools:
-
-	Using the tool atomic-red-team (test case number T1218)
+	Tools: Atomic-red-team (test case number T1218)
 
 	https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
 
