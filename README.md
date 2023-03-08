@@ -25,7 +25,6 @@ Thick client application penetration testing methodology research.
 
   Tools: TCP View (part of sys internals suite), Wireshark, netstat
 
-
 * Identify remote endpoints and ports:
 
   1.Identify the remote endpoints to which the application is establishing communication
@@ -53,11 +52,11 @@ Thick client application penetration testing methodology research.
   
 ### Communication/Proxy
 
-* Communication Secirity
+* Communication Security
 
-Encrypted communication, Vertification of Transport Layer security and cipher suite strength
-
- Tools: testssl.sh, sslyze
+	Encrypted communication, Vertification of Transport Layer security and cipher suite strength
+ 
+	Tools: testssl.sh, sslyze
 
 * Installation Traffic
 
