@@ -155,11 +155,8 @@ Thick client application penetration testing methodology research.
 	Process:
 
 		Process Explorer -> to identify the IPC mechnisms such as named pipes and shares used.
-
 		accesschk.exe from sysInternal suite -> to identify the access contols of names pipes that are being used.
-
 		ioninja pipe monitor -> to monitor the communication in named pipes
-
 		IDA Pro can also be used for analysis and exploitation
 
 * Auditing the binary
