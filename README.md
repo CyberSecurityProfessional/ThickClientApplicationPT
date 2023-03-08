@@ -135,9 +135,7 @@ Thick client application penetration testing methodology research.
 	Tools: DnSpy, Ollydbg
 
 		.Net, -> ILSpy or dnSpy
-
 		Java based application -> Jd-gui or jadx
-
 		C/C++ -> IDA Pro
 
 * Patching and reverse engineering
