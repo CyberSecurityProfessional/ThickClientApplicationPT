@@ -169,7 +169,7 @@ Encrypted communication, Vertification of Transport Layer security and cipher su
 
 	Tools: Microsoft Binscope binary analyzer
 
-*Binary Protections
+* Binary Protections
 
 	check if the binary has protection against recommended controls such as:
 
