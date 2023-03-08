@@ -71,3 +71,62 @@ Thick client application penetration testing methodology research.
     
     Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
     
+### Client Side Attacks
+
+* Client Side File Tampering
+
+	After identifying the associated files, check if it is possible to tamper the files and perform unintended operations
+
+	Method: Manual
+
+* Client Side Windows Registry Tampering
+
+	Analyse the linked registry items and check if:
+
+    * Any Sensitive data is stored in stored in registry
+
+    * Tampering the registry and perform unintended operations
+
+	Tools: Proc Mon (Process Monitor from Sys Internals suite), regshot, registry editor
+
+* Strings
+
+	Check for sensitive data/Hardcoded credentials using Strings command
+
+	Tools: Strings.exe (from Sys Internals suite)\
+
+* DLL Injection
+
+	(Also known as process Injection. Inject DLL's into running applications to see if the DLL/feature is loaded under the application context)
+
+	1.install atomic-red-team and execute respective test case
+
+	Tools:
+
+	Using the tool atomic-red-team (test case number T1218)
+
+	https://github.com/redcanaryco/invoke-atomicredteam/wiki/Installing-Invoke-AtomicRedTeam
+
+* DLL Hijacking
+
+	1.Identify linked dll's using process monitor
+
+	2.Create malicious dll's from meterpreter and check if that is executed when running the application
+
+	Tool: Process Monitor (from sys internal suite), meterpreter
+
+* Application Logs
+
+	Verify if the application logs any sensitive information whille exeucting
+
+	Tools:
+
+	Command: from cmd prompt: ""app.exe > c:\users\Desktop\logs.txt""
+
+	Logs can also be found at C:\Program Data\<applicationName>\"
+
+* Test for Symbolic Link Attacks
+
+	Command: symbolic-link-testing-tools\CreateMountPoint.exe <sourcepath> <to_destination_path>
+
+	Tools: https://github.com/googleprojectzero/symboliclink-testing-tools
