@@ -1,5 +1,5 @@
 # ThickClientApplicationPT
-Thick client application penetration testing methodology research.
+Complete thick client application penetration testing methodology research.
 
 ## Checklist
 
