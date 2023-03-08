@@ -56,8 +56,8 @@ Thick client application penetration testing methodology research.
 * Communication Secirity
 
 Encrypted communication, Vertification of Transport Layer security and cipher suite strength
-    
-	Tools: testssl.sh, sslyze
+
+ Tools: testssl.sh, sslyze
 
 * Installation Traffic
 
