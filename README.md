@@ -50,3 +50,23 @@ Thick client application penetration testing methodology research.
 
   Tools:
   Browse the installation folder using the tool 'Jetbrains dotPeek'
+  
+### Communication/Proxy
+
+* Communication Secirity
+
+    Encrypted communication, Vertification of Transport Layer security and cipher suite strength
+    
+    Tools: testssl.sh, sslyze
+
+* Installation Traffic
+
+    Is sensitive information transmitted during installation time
+    
+    Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
+
+* Run Time Interception and Tampering
+
+    Verify the communication by tampering the communication between client and the server (API Tests)
+    
+    Tools: Wireshark, echomirage, MITM-Relay, Burp Suite, HTTP Debugger Pro or Fiddler
