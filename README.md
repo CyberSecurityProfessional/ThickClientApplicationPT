@@ -1,7 +1,10 @@
 # ThickClientApplicationPT
 Complete thick client application penetration testing methodology research.
 ## Types of thick client apps
-Bases on the technology (Programming language) used: C, C++, C#, Java, .NET
+Bases on the technology (Programming language) used:
+```
+C, C++, C#, Java, .NET
+```
 ## Checklist
 ### Information Gathering
 * Technology, Framework, Libraries used
