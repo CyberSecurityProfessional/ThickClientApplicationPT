@@ -1,7 +1,13 @@
 # ThickClientApplicationPT
 Complete thick client application penetration testing methodology research.
+## Types of applications
+* Depending upon the architecture
+```
+Thin client application - Three tier architecture
+Thick client application - Two tier architecture
+```
 ## Types of thick client apps
-Bases on the technology (Programming language) used:
+* Bases on the technology (Programming language) used:
 ```
 C
 C++
